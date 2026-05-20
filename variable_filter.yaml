@@ -1,0 +1,77 @@
+# Variable filter decisions from the Presto data cleaning page.
+# Generated automatically when the user clicks Continue.
+#
+# thickness:annual     = varve thickness rows with median resolution <= 1 yr
+# thickness:nonannual  = all other thickness rows
+#
+excluded_variable_keys:
+  - age
+  - year
+  - depth
+  - depthtop
+  - depthbottom
+  - juliandate
+  - duration
+  - uncertainty
+  - uncertaintyhigh
+  - uncertaintylow
+  - uncertainty1s
+  - uncertainty2s
+  - uncertaintyhigh95
+  - uncertaintylow95
+  - arstan
+  - rbar
+  - eps
+  - correlationcoefficient
+  - segmentlength
+  - samplecount
+  - residualchronology
+  - correction
+  - sampleid
+  - core
+  - notes
+  - hashiatus
+  - hasgap
+  - composite
+  - needstobechanged
+  - count
+  - pc1
+  - cca1
+  - thickness:nonannual
+  - numberofsamples
+  - standarddeviation
+  - standarderror
+included_variable_keys:
+  - temperature
+  - d18o
+  - trsgi
+  - d2h
+  - trmxdsgi
+  - density
+  - reflectance
+  - varvethickness
+  - thickness:annual
+  - mxd
+  - mar
+  - icemelt
+  - r650/r700
+  - rabd660670
+  - sr/ca
+  - calcificationrate
+excluded_tsids_by_variable:
+  uncertainty:
+    - lcR1TXJS9LL6adO4BRk
+    - lcRnSWhfjqFhmxnzKPA
+    - lcRBHYbnwdjp58loTQx
+    - lcRaPliKYVgkpRQDEEr
+    - lcRTujGRhLGxXPE1LVM
+    - lcRI4yxWF90xB6vSvRx
+    - lcRSbZCFcyjWLlFEzCL
+    - lcRXw53GeoL09PuzcUy
+    - SAm_033
+    - SAm_034
+  needstobechanged:
+    - IC10VICR01C
+    - IC10VISB01A
+    - IC10VISB01B
+excluded_tsid_count: 13
